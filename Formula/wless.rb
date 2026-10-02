@@ -1,28 +1,28 @@
 class Wless < Formula
   desc "Word-wrapping, auto-following terminal pager"
   homepage "https://github.com/phurley/wless"
-  version "1.4.0"
+  version "1.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/phurley/wless/releases/download/v1.4.0/wless-v1.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1155e3d9ec6f165fb4cd9b7a7bc69d0d0cdbad1db8aa1624374437988c733248"
+      url "https://github.com/phurley/wless/releases/download/v1.4.1/wless-v1.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f7d7692912b326abcf9cd548037c585dc231e46b86a430d57be356b49877722e"
     end
     on_intel do
-      url "https://github.com/phurley/wless/releases/download/v1.4.0/wless-v1.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "87b655ec94ff19db7e0f6f42b74e8e9ad3f39207876611d962fd83727e736461"
+      url "https://github.com/phurley/wless/releases/download/v1.4.1/wless-v1.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c82ac05530e701730c878343ec102ba2ddaaf4443e3a657de269a4d40b5b4487"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/phurley/wless/releases/download/v1.4.0/wless-v1.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "07ca303956a6dfceeb4798e24cefc7685ace2478dc90b431172745328bd2c082"
+      url "https://github.com/phurley/wless/releases/download/v1.4.1/wless-v1.4.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "180bec6fa9e750c9fe872918688dc18a529bf272b5ec8b474e09f7195033488c"
     end
     on_intel do
-      url "https://github.com/phurley/wless/releases/download/v1.4.0/wless-v1.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "31543ff658ea10f746813834be3bc02985dcd8c90598741a68ccc40dc1201beb"
+      url "https://github.com/phurley/wless/releases/download/v1.4.1/wless-v1.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1fec834b1ee567a628769b433ad3579d92d92ef36eae072b5200f1ecc82b278d"
     end
   end
 
